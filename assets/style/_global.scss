@@ -1,0 +1,60 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,*::before, *::after {
+    box-sizing: inherit;
+}
+
+a, em {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-size: inherit;
+}
+
+body {
+    min-width: 320px;
+    overflow-x: hidden;
+    position: relative;
+    color: #B9B9B9;
+    @extend %ms-medium;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+span {
+    color: #FF6B09;
+}
+
+.container {
+    max-width: 1680px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+.title {
+    @extend %ms-extrabold;
+    font-size: 46px;
+    line-height: 60px;
+    letter-spacing: 0.03em;
+    margin-bottom: 80px;
+    padding-top: 80px;
+    color: #111518;
+}
